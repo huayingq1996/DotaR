@@ -10,6 +10,7 @@
 #'
 #' @return No return. The function put the system to sleep if the time between
 #' your last API call to the current one is less than 1s.
+#' @export
 #'
 #' @examples
 #' \dontrun{

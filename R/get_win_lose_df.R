@@ -6,6 +6,7 @@
 #'
 #' @return The function returns a dataframe containing player ID,
 #' match ID, match date, and the match outcome. Win = 1, loss = 0.
+#' @export
 #'
 #' @examples
 #' \dontrun{

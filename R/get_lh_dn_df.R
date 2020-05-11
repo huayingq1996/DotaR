@@ -7,6 +7,7 @@
 #'
 #' @return The function returns a dataframe containing player ID,
 #' match ID, match date, last hit count, and deny count
+#' @export
 #'
 #' @examples
 #' \dontrun{

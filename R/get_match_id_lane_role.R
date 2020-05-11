@@ -10,6 +10,7 @@
 #' @return The function returns a numeric vector containing the match IDs of the *n*
 #' most recent matchs that involves the player with with the specific player ID
 #' and the specific lane role.
+#' @export
 #'
 #' @examples
 #' \dontrun{

@@ -7,6 +7,7 @@
 #'
 #' @return The function returns a dataframe containing player ID,
 #' match ID, match date, in game time in second, name of item purchased.
+#' @export
 #'
 #' @examples
 #' \dontrun{

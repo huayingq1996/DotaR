@@ -11,6 +11,7 @@
 #'
 #' @return The function returns a nested list. Each element in the list
 #' is a parsed JSON file of a match.
+#' @export
 #'
 #' @examples
 #' \dontrun{

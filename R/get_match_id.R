@@ -9,6 +9,7 @@
 #'
 #' @return The function returns a numeric vector containing the match IDs of the *n*
 #' most recent matchs that involves the player with the specific player ID provided by the user.
+#' @export
 #'
 #' @examples
 #' \dontrun{

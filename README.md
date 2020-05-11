@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of DotaR is to ...
+Description to be added
 
 ## Installation
 

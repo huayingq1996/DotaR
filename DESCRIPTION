@@ -1,15 +1,22 @@
 Package: DotaR
-Title: What the Package Does (One Line, Title Case)
+Title: Interface for OpenDota API and Tools for Dota 2 Data Analysis
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Huaying",
+           family = "Qiu",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "huayingq1996@gmail.com")
+Description: This package provides a interface to fetch the parsed JSON files of parsed match replays of a specific player using the OpenDota API from <https://www.opendota.com/>. 
+  The package also provides tools to extract data, such as last hit/deny, from the parsed JSON files and convert the extract data into a tidy dataframe. 
+License: CCO
+Depends: 
+  R (>= 3.6.3)
+Imports:
+  httr,
+  dplyr,
+  lubridate,
+  purrr,
+  stringr
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
